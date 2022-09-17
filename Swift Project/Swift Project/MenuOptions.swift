@@ -6,7 +6,6 @@ struct MenuOption{
             if user.Username == username{
                 print("""
             Dear Sir/Madam,
-            
             This is to certify that \(user.name) with student id \(user.StudentID) is a student at grade \(user.Grade) at CICCC. He was admitted to our college in \(user.admission_year) and has taken \(user.Courses.count) course(s). Currently he resides at 850 West Vancouver, Vancouver.
                 If you have any question, please don’t hesitate to contact us.
                 Thanks,
@@ -26,12 +25,12 @@ struct MenuOption{
     static func printTranscript(username : String){
         for user in Transcripts{
             if user.username == username{
-            print("""
-            Hi \(user.username)
+        print("""
+            Hi \(user.name)
             Here is your transcript:
             \(user.Courses) \n
             YOUR GPA IS: \(user.GPA)
-    """)
+            """)
             }
         }
     }
@@ -39,7 +38,7 @@ struct MenuOption{
         for user in Transcripts{
             if user.username == usernames{
                 print("""
-            Hi \(user.username),
+            Hi \(user.name),
             Your GPA is \(user.GPA)
             """)
             }
@@ -52,7 +51,7 @@ struct MenuOption{
             if user.username == usernames{
                 guard let index = SortedForRanks.firstIndex(of: user) else {return}
                 let Rank = index + 1
-                print("Hi, \(user.username)")
+                print("Hi, \(user.name)")
                 print("The Gpa of \(user.username) is \(user.GPA) and therefore the Rank is \(Rank)")
             }
             

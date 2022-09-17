@@ -16,7 +16,6 @@
 		FBED610828D2C8FC00990B57 /* Login_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED610728D2C8FC00990B57 /* Login_Menu.swift */; };
 		FBED610A28D2CF0700990B57 /* MenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED610928D2CF0700990B57 /* MenuOptions.swift */; };
 		FBED610C28D3159C00990B57 /* Transcript.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED610B28D3159C00990B57 /* Transcript.swift */; };
-		FBED611228D4C38B00990B57 /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED611128D4C38B00990B57 /* Print.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +41,6 @@
 		FBED610728D2C8FC00990B57 /* Login_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Menu.swift; sourceTree = "<group>"; };
 		FBED610928D2CF0700990B57 /* MenuOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptions.swift; sourceTree = "<group>"; };
 		FBED610B28D3159C00990B57 /* Transcript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transcript.swift; sourceTree = "<group>"; };
-		FBED611128D4C38B00990B57 /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +82,6 @@
 				FBED610728D2C8FC00990B57 /* Login_Menu.swift */,
 				FBED610928D2CF0700990B57 /* MenuOptions.swift */,
 				FBED610B28D3159C00990B57 /* Transcript.swift */,
-				FBED611128D4C38B00990B57 /* Print.swift */,
 			);
 			path = "Swift Project";
 			sourceTree = "<group>";
@@ -154,7 +151,6 @@
 				FB99BDA928D16311006E9EE9 /* Student.swift in Sources */,
 				FBED610A28D2CF0700990B57 /* MenuOptions.swift in Sources */,
 				FB99BDA728D16200006E9EE9 /* Accounts.swift in Sources */,
-				FBED611228D4C38B00990B57 /* Print.swift in Sources */,
 				FB99BDAD28D1674C006E9EE9 /* StudentCourses.swift in Sources */,
 				FBED610C28D3159C00990B57 /* Transcript.swift in Sources */,
 			);

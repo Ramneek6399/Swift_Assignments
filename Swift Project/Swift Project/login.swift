@@ -22,9 +22,9 @@ struct Login {
         }
         
         if Is_the_Acc_valid(username: unwrapped_username, password: unwrapped_password, usernames: Total_Acc) == true {
-            print("************************************************")
+            print("**************************************************************")
             print("Welcome to Cornerstone International College of Canada.")
-            print("************************************************")
+            print("**************************************************************")
             print("")
             print("")
             print("")
@@ -32,9 +32,9 @@ struct Login {
            
             
         } else if Is_the_Acc_valid(username: unwrapped_username, password: unwrapped_password, usernames: Total_Acc) == false {
-            print("************************************************")
+            print("**************************************************************")
             print("Your account does not exist. Please try again!")
-            print("************************************************")
+            print("**************************************************************")
             loginPortal()
             
         }
@@ -75,7 +75,7 @@ struct Login {
                     print("Programme Terminated")
                 }
             }
-             while (!(option == nil || option == 9 || option == 8))
+             while (option != nil && option != 9 && option != 8)
             // option != nil && option != 9 || option != 8
         }}
     
