@@ -28,4 +28,51 @@
 //o Predicate2:    number of holds: 11 total: 81
 //
 //You should use the property observers to solve this problem.
- class 
+
+
+class MyNotification {
+    var Seen : Bool
+    var TotalSeen : Int
+    
+    init(Seen: Bool, TotalSeen: Int) {
+        self.Seen = Seen
+        self.TotalSeen = TotalSeen
+    }
+    static func searchIt(list : [Int], Predicate : (Int) -> (Bool)) {
+        var array : [Int] = []
+        for num in list {
+            if Predicate(num) == true {
+                array.append(num)
+            }
+            
+            
+        }
+        print(array)
+    }
+    static func fillIt(size: Int) -> [Int] {
+        var result = Array(repeating: 0, count: size)
+        for index in 0..<result.count {
+            result[index] = Int.random(in: 0...100)
+            
+        }
+        return result
+    }
+    
+  
+    
+    
+}
+
+func main(){
+    let Predicate1 : (Int) -> Bool = { a in a % 3 == 0}
+    let X  = MyNotification.fillIt(size: 10)
+    print(X)
+    MyNotification.searchIt(list: X, Predicate: Predicate1)
+    
+    var Predicate2 : (Int) -> Bool = { a in a % 2 = 0}
+    let Y = MyNotification.fillIt(size: 10)
+    print(Y)
+    MyNotification.searchIt(list: Y, Predicate: Predicate2)
+                        
+   }
+main()

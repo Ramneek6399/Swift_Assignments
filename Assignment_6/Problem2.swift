@@ -18,7 +18,7 @@ enum AppleDevice{
     var Device: String {
         switch self {
         case .iPhoneXs:
-            return "Price $1000"
+            return "Pric/Users/ramneekkaur/Desktop/Swift Assignments/Assignment_6/Problem2.swifte $1000"
         case .iPhoneXR:
             return "Price $1100"
         case .iPhone8:
